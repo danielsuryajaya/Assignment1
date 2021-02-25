@@ -1,0 +1,161 @@
+@media screen and (max-width:680px){
+
+  #maincontent{
+    width: auto;
+    float: none;
+  }
+  #sidebar{
+    width: auto;
+    float: none;
+  }
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div.header {
+  background-color:rgb(222, 224, 253);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+div.content {
+  background-color: rgb(246, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  margin: 40px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+div.content > div.space {
+  width:15%;
+  display:inline-block;
+  margin-right: -4px; /* fighting the whitespace */
+}
+
+div.content > div.profile-container {
+  display:inline-block;
+  width: 70%;
+  margin-right: -4px; /* fighting the whitespace */
+}
+
+div.header > div.space {
+  width:40%;
+  display:inline-block;
+  margin-right: -4px; /* fighting the whitespace */
+}
+
+div.header > div.menu-content {
+  width:60%;
+  font-weight: bolder;
+  display:inline-block;
+  background-color:rgb(222, 224, 253);
+  margin-right: -4px; /* fighting the whitespace */
+}
+
+div.header > div.menu-content > #home:hover {
+ color:turquoise
+}
+
+div.header > div.menu-content > #products:hover {
+  color:turquoise
+ }
+
+ div.header > div.menu-content > #gallery:hover {
+  color:turquoise
+ }
+
+ div.header > div.menu-content > #blog:hover {
+  color:turquoise
+ }
+
+ div.header > div.menu-content > #profile:hover {
+  color:turquoise
+ }
+
+ div.header > div.menu-content > #my-inventory:hover {
+  color:turquoise
+ }
+
+div.header > div.menu-content > div.menu-item {
+  width:16.66%;
+  display:inline-block;
+  margin-right: -4px; /* fighting the whitespace */
+}
+
+div.profile-container > div.profile-card {
+  height: 200px;
+  width: 100%;
+}
+
+div.profile-container > div.profile-form {
+  margin: 24px 0;
+  height: 400px;
+  background-color: rgb(248, 236, 255);
+}
+
+div.profile-container > div.profile-card > div.picture {
+  width: 20%;
+  height: 100%;
+  display:inline-block;
+  margin-right: -4px; /* fighting the whitespace */
+}
+
+img{
+width: 100%;
+height:100%;
+}
+
+div.profile-container > div.profile-card > div.your-name {
+  width: 40%;
+  height: 100%;
+  display:inline-block;
+  margin-right: -4px; /* fighting the whitespace */
+  vertical-align: top
+}
+
+div.profile-container > div.profile-card > div.your-profile {
+  width: 15%;
+  height: 100%;
+  display:inline-block;
+  margin-right: -4px; /* fighting the whitespace */
+  vertical-align: top;
+}
+
+div.profile-container > div.profile-card > div.your-status {
+  width: 25%;
+  height: 100%;
+  display:inline-block;
+  margin-right: -4px; /* fighting the whitespace */
+  vertical-align: top
+}
+
+div.your-name > .tombol {
+  display: inline-block;
+  background-color: royalblue;
+  color: white;
+  border-color:rgb(209, 229, 255);
+}
+
+div.content > div.profile-container > div.profile-form > input {
+  width: 900px;
+  border-width: thin;
+  margin:4px 24px 4px 24px;
+}
+div.content > div.profile-container > div.profile-form > button {
+  background-color: rgb(23, 170, 97);
+  font-weight: bolder;
+  color: white;
+  border-color: rgb(109, 219, 210);
+  
+}
